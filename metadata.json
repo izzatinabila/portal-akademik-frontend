@@ -1,0 +1,5 @@
+{
+  "name": "Kalkulator IPK & Progres Akademik",
+  "description": "Aplikasi untuk menghitung Indeks Prestasi Semester (IPS) dan Indeks Prestasi Kumulatif (IPK) secara otomatis, serta melacak progres akademik Anda dari semester ke semester.",
+  "requestFramePermissions": []
+}

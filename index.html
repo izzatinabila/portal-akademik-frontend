@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator IPK & Progres Akademik</title>
+    <!-- Using Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Custom Tailwind theme configuration
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'unsri-yellow': '#FFC700',
+              'unsri-green': '#16a34a',
+              'slate': {
+                700: '#334155',
+                800: '#1e293b',
+                900: '#0f172a'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <script type="importmap">
+    {
+      "imports": {
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+        "react/": "https://aistudiocdn.com/react@^19.1.1/",
+        "react": "https://aistudiocdn.com/react@^19.1.1",
+        "xlsx": "https://aistudiocdn.com/xlsx@^0.18.5",
+        "jspdf": "https://aistudiocdn.com/jspdf@^3.0.2",
+        "jspdf-autotable": "https://aistudiocdn.com/jspdf-autotable@^5.0.2"
+      }
+    }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-200">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
